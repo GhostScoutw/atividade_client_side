@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bruno Kussen - Cadastro de perfil</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Criar perfil da loja</h1>
+      <h4>Etapa 1/4</h4>
+      <form id="cadastroForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required />
+
+        <label for="pais">País:</label>
+        <select id="pais" name="pais" required>
+          <option value="brasil">Brasil</option>
+          <option value="eua">Estados Unidos</option>
+          <option value="canada">Canadá</option>
+          <option value="wakanda">Wakanda</option>
+          <option value="vertigo">Vertigo</option>
+          <option value="zimbabue">Zimbábue</option>
+        </select>
+
+        <button type="submit">Próximo</button>
+      </form>
+    </div>
+
+    <div class="aviso">
+      <h3>Será enviado um código <br> 
+        ao seu email. <br>
+      <br>
+        Favor aguardar confirmação ao prosseguir.</h3>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
